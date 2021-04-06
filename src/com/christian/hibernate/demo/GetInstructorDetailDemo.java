@@ -49,7 +49,14 @@ public class GetInstructorDetailDemo {
 			
 			System.out.println("Complete");
 			
-		}finally {
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		finally {
+			session.close();
 			factory.close();
 		}
 	}
