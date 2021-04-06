@@ -31,8 +31,8 @@ public class CreateDemo {
 			InstructorDetail tempInstructorDetail= new  InstructorDetail("http://christian.sangle","basketball");
 			*/
 			
-			Instructor tempInstructor2 = new Instructor("Jon", "Doe","jpon@doe.com");
-			InstructorDetail tempInstructorDetail2= new  InstructorDetail("http://jon.doe","guitar");
+			Instructor tempInstructor2 = new Instructor("meow", "cat","meow@cat.com");
+			InstructorDetail tempInstructorDetail2= new  InstructorDetail("http://meow.cat","sleeping");
 			
 			//associate the objects
 			tempInstructor2.setInstructorDetail(tempInstructorDetail2); 
